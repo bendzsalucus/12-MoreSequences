@@ -31,7 +31,7 @@ def main():
     run_test_draw_points_on_circle()
     run_test_pizza()
     run_test_polygon()
-    # run_test_fancy_polygon()
+    run_test_fancy_polygon()
 
 
 def run_test_generate_points_on_circle():
@@ -463,7 +463,7 @@ def polygon(window, circle, number_of_segments, color, thickness):
 
 
     # ------------------------------------------------------------------
-    # TODO: 8. Implement and test this function.
+    # DOne: 8. Implement and test this function.
     #   Note that you should write its TEST function first (above).
     #
     # IMPLEMENTATION REQUIREMENT:
@@ -583,6 +583,7 @@ def fancy_polygon(window, circle, number_of_lines, hops_to_next_point, color, th
    3*k +0 % 10
    sicklic root
     """
+
     # ------------------------------------------------------------------
     # TODO: 10. Implement and test this function.
     #   Note that you should write its TEST function first (above).

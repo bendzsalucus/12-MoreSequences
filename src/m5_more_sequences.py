@@ -7,8 +7,8 @@ for ITERATING through SEQUENCES, including:
   -- The FIND pattern (via LINEAR SEARCH)
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Lucus BEndzsa.
+"""  # DOne: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
 
@@ -88,6 +88,9 @@ def sum_radii(circles):
     #       Instead, use explicit loops, as you have for other problems.
     # ------------------------------------------------------------------
 
+    for k in range(len(circles)):
+        rad = circles[k].radius
+        
 
 # ----------------------------------------------------------------------
 # Some problems iterate (loop) through PART of the sequence,
