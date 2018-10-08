@@ -90,7 +90,7 @@ def sum_radii(circles):
 
     for k in range(len(circles)):
         rad = circles[k].radius
-        
+
 
 # ----------------------------------------------------------------------
 # Some problems iterate (loop) through PART of the sequence,

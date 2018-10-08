@@ -177,13 +177,13 @@ def run_test_make_less_simple_string():
 
     # Test 3:
     expected = '[6-5-4-3]'
-    actual = make_simple_string(3, 6)
+    actual = make_less_simple_string(3, 6)
     print('Expected:', expected)
     print('Actual:  ', actual)
 
     # Test 4:
     expected = '[10-9-8-7]'
-    actual = make_simple_string(7, 10)
+    actual = make_less_simple_string(7, 10)
     print('Expected:', expected)
     print('Actual:  ', actual)
 
@@ -210,20 +210,20 @@ def make_less_simple_string(m, n):
       :type n: int
     """
 
-    sequence = []
+    sequence = ''
     for k in range(n-m + 1):
         change = n - k
         jello = '-'
         if k != (n - m + 1):
             change1 = str(change) + jello
-            sequence.append(change1)
+            sequence = sequence + change1
         else:
-            sequence.append(change)
+            sequence = sequence + str(change)
 
     return sequence
 
     # ------------------------------------------------------------------
-    # TODO: 7. Implement and test this function.
+    # DOne: 7. Implement and test this function.
     #   Note that you should write its TEST function first (above).
     # -----------------------------------------------------------------
 
